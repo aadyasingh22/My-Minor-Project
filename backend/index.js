@@ -1,7 +1,7 @@
 // import express
 const express = require('express');
 const userRouter = require('./routers/userRouter');
-const productRouter = require('./routers/productRouter');
+const handicraftRouter = require('./routers/handicraftRouter');
 const cors = require('cors');
 
 //initialize expess
@@ -16,7 +16,7 @@ app.use(cors({
 }));
 
 app.use('/user', userRouter);
-app.use('/product', productRouter);
+app.use('/handicraft', handicraftRouter);
 
 //routes
 app.get('/', (req, res) => {

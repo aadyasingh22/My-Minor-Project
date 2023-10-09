@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
-}
+/* signup page css*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.signupbody{
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.signupcard{
+  /* text-align: center; */
+  width: 25%;
+  padding: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signupform{
+  padding: 10px;
+}
+
+.signupinput{
+  display: block;
+  margin-bottom: 15px;
+  padding: 7px;
+  width: 100%;
+  border: none;
+  background-color: rgb(213, 231, 231);
+}
+
+.signupbutton{
+  display: block;
+  margin: auto;
+}
+
+/* login page css */
+
+.loginbody{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url('https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center;
+  background-size: cover; */
+}
+
+.logincard{
+  text-align: center;
+  width: 25%;
+  padding: 15px;
+  /* background-color: antiquewhite; */
+}
+
+.loginform{
+  padding: 10px;
+}
+
+.logininput{
+  display: block;
+  margin-bottom: 15px;
+  padding: 7px;
+  width: 100%;
+  border: none;
+  background-color: rgb(213, 231, 231);
+  /* border-bottom: 1px solid black; */
+}
+
+.loginbutton{
+  display: block;
+  margin: auto;
+}
+
+/* addhandicraft page css */
+
+.handicraftbody{
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
